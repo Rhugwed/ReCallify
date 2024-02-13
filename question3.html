@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun & Learn Quiz</title>
+    <link rel="stylesheet" href="question3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fun & Learn Quiz</h1>
+        <div class="question">
+            <p>Arrange the following steps in the correct order:</p>
+            <div id="drag-container" class="drag-container">
+                <div class="drag-item" draggable="true" data-index="1">Once upon a time...</div>
+                <div class="drag-item" draggable="true" data-index="2">The main character faced a challenge...</div>
+                <div class="drag-item" draggable="true" data-index="3">With determination, the character overcame the challenge...</div>
+                <div class="drag-item" draggable="true" data-index="4">The story concluded with a valuable lesson learned.</div>
+            </div>
+            <button type="button" onclick="checkOrder()">Submit</button>
+        </div>
+    </div>
+
+    <script src="question3.js"></script>
+</body>
+</html>
